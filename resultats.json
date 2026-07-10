@@ -1,0 +1,225 @@
+{
+  "config": {
+    "episodes": 12000,
+    "base": "alpha=0.1, gamma=0.99, eps=decay"
+  },
+  "comparaison": {
+    "baseline": {
+      "eval": {
+        "reward_moyen": -767.67,
+        "taux_succes": 0.05,
+        "longueur_moyenne": 195.924
+      }
+    },
+    "Monte Carlo": {
+      "eval": {
+        "reward_moyen": 3.8292,
+        "taux_succes": 0.9832000000000001,
+        "longueur_moyenne": 16.817999999999998
+      }
+    },
+    "SARSA": {
+      "eval": {
+        "reward_moyen": 7.880800000000001,
+        "taux_succes": 1.0,
+        "longueur_moyenne": 13.119200000000001
+      }
+    },
+    "Q-Learning": {
+      "eval": {
+        "reward_moyen": 7.937600000000001,
+        "taux_succes": 1.0,
+        "longueur_moyenne": 13.0624
+      }
+    }
+  },
+  "alpha": {
+    "Monte Carlo": {
+      "0.05": {
+        "reward_moyen": 0.6253333333333333,
+        "taux_succes": 0.9666666666666667,
+        "longueur_moyenne": 19.674666666666667
+      },
+      "0.1": {
+        "reward_moyen": 1.7306666666666664,
+        "taux_succes": 0.9726666666666667,
+        "longueur_moyenne": 18.695333333333334
+      },
+      "0.3": {
+        "reward_moyen": -291.7953333333333,
+        "taux_succes": 0.29533333333333334,
+        "longueur_moyenne": 144.90733333333336
+      },
+      "0.7": {
+        "reward_moyen": -619.5086666666667,
+        "taux_succes": 0.04466666666666667,
+        "longueur_moyenne": 191.63866666666664
+      }
+    },
+    "SARSA": {
+      "0.05": {
+        "reward_moyen": 7.299333333333333,
+        "taux_succes": 0.9973333333333333,
+        "longueur_moyenne": 13.644666666666666
+      },
+      "0.1": {
+        "reward_moyen": 7.8373333333333335,
+        "taux_succes": 1.0,
+        "longueur_moyenne": 13.162666666666667
+      },
+      "0.3": {
+        "reward_moyen": 7.9013333333333335,
+        "taux_succes": 1.0,
+        "longueur_moyenne": 13.098666666666666
+      },
+      "0.7": {
+        "reward_moyen": -255.80933333333334,
+        "taux_succes": 0.6713333333333334,
+        "longueur_moyenne": 74.66133333333333
+      }
+    },
+    "Q-Learning": {
+      "0.05": {
+        "reward_moyen": 7.902666666666666,
+        "taux_succes": 1.0,
+        "longueur_moyenne": 13.097333333333333
+      },
+      "0.1": {
+        "reward_moyen": 7.902666666666666,
+        "taux_succes": 1.0,
+        "longueur_moyenne": 13.097333333333333
+      },
+      "0.3": {
+        "reward_moyen": 7.902666666666666,
+        "taux_succes": 1.0,
+        "longueur_moyenne": 13.097333333333333
+      },
+      "0.7": {
+        "reward_moyen": 7.902666666666666,
+        "taux_succes": 1.0,
+        "longueur_moyenne": 13.097333333333333
+      }
+    }
+  },
+  "gamma": {
+    "Monte Carlo": {
+      "0.9": {
+        "reward_moyen": 6.081333333333333,
+        "taux_succes": 0.9926666666666666,
+        "longueur_moyenne": 14.764666666666665
+      },
+      "0.99": {
+        "reward_moyen": 1.7306666666666664,
+        "taux_succes": 0.9726666666666667,
+        "longueur_moyenne": 18.695333333333334
+      },
+      "1.0": {
+        "reward_moyen": -58.47200000000001,
+        "taux_succes": 0.9073333333333333,
+        "longueur_moyenne": 30.929999999999996
+      }
+    },
+    "SARSA": {
+      "0.9": {
+        "reward_moyen": -9.015333333333333,
+        "taux_succes": 0.9186666666666667,
+        "longueur_moyenne": 28.307333333333332
+      },
+      "0.99": {
+        "reward_moyen": 7.8373333333333335,
+        "taux_succes": 1.0,
+        "longueur_moyenne": 13.162666666666667
+      },
+      "1.0": {
+        "reward_moyen": 7.890000000000001,
+        "taux_succes": 1.0,
+        "longueur_moyenne": 13.11
+      }
+    },
+    "Q-Learning": {
+      "0.9": {
+        "reward_moyen": 7.902666666666666,
+        "taux_succes": 1.0,
+        "longueur_moyenne": 13.097333333333333
+      },
+      "0.99": {
+        "reward_moyen": 7.902666666666666,
+        "taux_succes": 1.0,
+        "longueur_moyenne": 13.097333333333333
+      },
+      "1.0": {
+        "reward_moyen": 7.902666666666666,
+        "taux_succes": 1.0,
+        "longueur_moyenne": 13.097333333333333
+      }
+    }
+  },
+  "epsilon": {
+    "Monte Carlo": {
+      "0.01": {
+        "reward_moyen": -230.83133333333333,
+        "taux_succes": 0.012666666666666666,
+        "longueur_moyenne": 197.56933333333333
+      },
+      "0.1": {
+        "reward_moyen": -140.23266666666666,
+        "taux_succes": 0.5733333333333334,
+        "longueur_moyenne": 93.54466666666667
+      },
+      "0.3": {
+        "reward_moyen": -38.675333333333334,
+        "taux_succes": 0.878,
+        "longueur_moyenne": 36.86933333333334
+      },
+      "decay": {
+        "reward_moyen": 1.7306666666666664,
+        "taux_succes": 0.9726666666666667,
+        "longueur_moyenne": 18.695333333333334
+      }
+    },
+    "SARSA": {
+      "0.01": {
+        "reward_moyen": 7.902666666666666,
+        "taux_succes": 1.0,
+        "longueur_moyenne": 13.097333333333333
+      },
+      "0.1": {
+        "reward_moyen": 7.902666666666666,
+        "taux_succes": 1.0,
+        "longueur_moyenne": 13.097333333333333
+      },
+      "0.3": {
+        "reward_moyen": -4.999333333333333,
+        "taux_succes": 0.9366666666666666,
+        "longueur_moyenne": 24.66933333333333
+      },
+      "decay": {
+        "reward_moyen": 7.8373333333333335,
+        "taux_succes": 1.0,
+        "longueur_moyenne": 13.162666666666667
+      }
+    },
+    "Q-Learning": {
+      "0.01": {
+        "reward_moyen": 7.902666666666666,
+        "taux_succes": 1.0,
+        "longueur_moyenne": 13.097333333333333
+      },
+      "0.1": {
+        "reward_moyen": 7.902666666666666,
+        "taux_succes": 1.0,
+        "longueur_moyenne": 13.097333333333333
+      },
+      "0.3": {
+        "reward_moyen": 7.902666666666666,
+        "taux_succes": 1.0,
+        "longueur_moyenne": 13.097333333333333
+      },
+      "decay": {
+        "reward_moyen": 7.902666666666666,
+        "taux_succes": 1.0,
+        "longueur_moyenne": 13.097333333333333
+      }
+    }
+  }
+}

@@ -93,7 +93,14 @@ algos n'a pas appris.
 
 ## Résultats
 
-*(run complet en cours — section complétée à l'issue)*
+Analyse complète, figures commentées et trame de slides : **[RAPPORT.md](RAPPORT.md)**.
+
+En bref (politique greedy finale, config de référence) : baseline aléatoire
+−767,7 → **Monte Carlo +3,8** (98,3 % de succès) · **SARSA +7,9** (100 %) ·
+**Q-Learning +7,9** (100 %) — l'optimal ≈ +7,9 est atteint par les deux
+méthodes TD. Sur les grilles d'hyperparamètres, la robustesse se classe
+**Q-Learning ≫ SARSA ≫ MC** (MC diverge dès α = 0,3 et dépend
+vitalement du decay d'ε).
 
 ## Fichiers
 
